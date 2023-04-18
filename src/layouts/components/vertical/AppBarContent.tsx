@@ -23,6 +23,7 @@ import router from 'next/router'
 import Image from 'next/image'
 import logoImg from '../../../../public/images/Logo.svg'
 
+
 interface Props {
   settings: Settings
   saveSettings: (values: Settings) => void
